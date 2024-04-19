@@ -7,15 +7,25 @@ export const LandingPage = () => {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Nam at augue velit. Etiam porttitor, augue non venenatis aliquam, 
         sem massa facilisis neque.`,
-      url: "",
+      url: `/projects/1`,
+      repo: ``,
+      designcredit: {
+        author: "John Doe",
+        url: `https://www.behance.net/gallery/194256255/Finance-Management-Landing-Page-Finex`,
+      },
     },
-    {
-      title: "Project Management SAAS App Landing Page",
-      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Nam at augue velit. Etiam porttitor, augue non venenatis 
-        aliquam, sem massa facilisis neque`,
-      url: "",
-    },
+    // {
+    //   title: "Project Management SAAS App Landing Page",
+    //   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    //     Nam at augue velit. Etiam porttitor, augue non venenatis
+    //     aliquam, sem massa facilisis neque`,
+    //   url: "",
+    //   designcredit: {
+    //     author: "John Doe",
+    //     url: ""
+
+    //   }
+    // },
   ];
   return (
     <div>
@@ -28,6 +38,8 @@ export const LandingPage = () => {
             title={item.title}
             description={item.description}
             url={item.url}
+            designcredit={item.designcredit}
+            repo={item.repo}
           />
         ))}
       </div>

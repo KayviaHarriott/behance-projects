@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { LandingPage } from './pages/LandingPage'
+import { FinanceManagementLandingPage } from './pages/FinanceManagementLandingPage'
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <BrowserRouter>
         <Routes>
         <Route path="" element={<LandingPage/>} />
+        <Route path="/projects/1" element={<FinanceManagementLandingPage/>} />
         </Routes>
     </BrowserRouter>
   )
