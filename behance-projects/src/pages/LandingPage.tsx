@@ -1,7 +1,7 @@
 export const LandingPage = () =>{
     return(
         <div>
-            <p>Landing Page</p>
+            <p className="font-bold pt-[56px]">Landing Page</p>
         </div>
     )
 }
