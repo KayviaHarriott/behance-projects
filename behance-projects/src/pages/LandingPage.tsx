@@ -33,7 +33,7 @@ export const LandingPage = () => {
         <p className="font-bold text-[32px]">Kayvia Harriott</p>
         <p>Behance Projects</p>
       </div>
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-2">
         {projectsList.map((item, index) => (
           <ItemDisplayBubbleProps
             key={index}
