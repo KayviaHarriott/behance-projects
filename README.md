@@ -9,7 +9,7 @@ This project currently uses Vite ReactJS, and is extremely easy to start up.
 
 1. Clone this repo to your desktop
 ```
-
+git clone https://github.com/KayviaHarriott/behance-projects.git
 ```
 
 2. Navigate inside the project folder
